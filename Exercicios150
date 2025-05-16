@@ -1,0 +1,12 @@
+var nome = "Tomaz";
+const cpf = "123.456.789-00";
+
+function exibirSobrenome() {
+    let sobreNome = "Lyra";
+    return sobreNome;
+}
+
+console.log(nome);
+console.log(exibirSobrenome()); 
+console.log(cpf);
+console.log("O nome do aluno é: " + nome +  "O Sobrenome é: " + exibirSobrenome() + " e o CPF é: " + cpf); // O nome do aluno é Tomaz Lyra e o CPF é 123.456.789-00
